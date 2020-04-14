@@ -1,0 +1,31 @@
+{
+  "name": "@berikiushi/zen-styled",
+  "version": "1.0.0",
+  "description": "Style props based on Emmet css shortcuts",
+  "main": "lib/index.js",
+  "author": "Yury Lysov <berikiushi@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "emmet"
+  ],
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "prepublish": "rollup -c"
+  },
+  "peerDependencies": {
+    "styled-components": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "rollup": "^2.6.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
