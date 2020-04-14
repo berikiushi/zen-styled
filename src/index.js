@@ -32,13 +32,13 @@ export const flex = create({
   fxd: 'flexDirection',
   fxw: 'flexWrap',
   jc: 'justifyContent',
-  ai: 'alignItems',
-  ac: 'alignContent',
+  ali: 'alignItems',
+  alc: 'alignContent',
   ord: 'order',
   fxg: 'flexGrow',
   fxsh: 'flexShrink',
   fxb: 'flexBasis',
-  as: 'alignSelf',
+  als: 'alignSelf',
 });
 
 export const position = create({

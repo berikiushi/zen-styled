@@ -1,6 +1,6 @@
 {
   "name": "@berikiushi/zen-styled",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Style props based on Emmet css shortcuts",
   "main": "lib/index.js",
   "author": "Yury Lysov <berikiushi@gmail.com>",
@@ -27,5 +27,9 @@
     "@babel/preset-env": "^7.9.5",
     "rollup": "^2.6.1",
     "rollup-plugin-babel": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berikiushi/zen-styled.git"
   }
 }

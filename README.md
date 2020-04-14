@@ -1,6 +1,6 @@
 # zen-styled
 
-Style props based on Emmet css shortcuts.
+Style props inspired by Emmet css shortcuts and styled-system.
 
 ## Usage
 
