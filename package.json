@@ -1,7 +1,7 @@
 {
   "name": "@berikiushi/zen-styled",
   "version": "1.0.1",
-  "description": "Style props based on Emmet css shortcuts",
+  "description": "Style props inspired by Emmet css shortcuts and styled-system.",
   "main": "lib/index.js",
   "author": "Yury Lysov <berikiushi@gmail.com>",
   "license": "MIT",
