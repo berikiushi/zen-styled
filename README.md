@@ -312,3 +312,25 @@ import { pseudo } from '@berikiushi/zen-styled';
 | \_firstLine       | ::first-line         |
 | \_selection       | ::selection          |
 | \_placeholder     | ::placeholder        |
+
+## Custom Style Props
+
+You can create your own sets of Style Props.
+
+```jsx
+import styled from 'styled-components';
+import { create } from '@berikiushi/zen-styled';
+
+const customProps = create({
+  d: 'display',
+  pos: 'position',
+  t: 'top',
+  r: 'right',
+  b: 'bottom',
+  l: 'left',
+  w: 'width',
+  h: 'height',
+  m: 'margin',
+  p: 'padding',
+});
+```
