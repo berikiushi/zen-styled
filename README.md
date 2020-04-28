@@ -321,7 +321,7 @@ You can create your own sets of Style Props.
 import styled from 'styled-components';
 import { create } from '@berikiushi/zen-styled';
 
-const customProps = create({
+const customStyleProps = create({
   d: 'display',
   pos: 'position',
   t: 'top',
@@ -333,4 +333,30 @@ const customProps = create({
   m: 'margin',
   p: 'padding',
 });
+
+const Box = styled.div`
+  ${customStyleProps}
+`;
+
+export default Box;
+```
+
+## Custom Pseudo Props
+
+You can create your own sets of Pseudo Props.
+
+```jsx
+import styled from 'styled-components';
+import { createPseudo } from '@berikiushi/zen-styled';
+
+const customPseudoProps = create({
+  _f: ':first-child',
+  _l: ':last-child',
+});
+
+const Box = styled.div`
+  ${customPseudoProps}
+`;
+
+export default Box;
 ```
